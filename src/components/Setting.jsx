@@ -45,7 +45,6 @@ const Setting = ({ modalOpen, setModalOpen }) => {
       onSubmit={saveKey}
       className='flex flex-col items-center justify-center gap-2'>
       <p className='text-lg font-semibold'>Use your own API-key.</p>
-      <p>keys are saved in your own browser</p>
       <p className='italic'>
         Get OpenAI API key{' '}
         <a
@@ -67,7 +66,7 @@ const Setting = ({ modalOpen, setModalOpen }) => {
         {loading ? (
           <>
             <span className='loading loading-spinner' />
-            <p>Checking Api Key</p>
+            <p>Checking API_Key</p>
           </>
         ) : (
           'save to localStorage'
