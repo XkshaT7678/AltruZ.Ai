@@ -9,26 +9,8 @@ import { dalle } from '../utils/dalle';
 import Modal from './Modal';
 import Setting from './Setting';
 
-const options = ['ChatGPT', 'DALL·E'];
+const options = ['AltruZ.Ai', 'DALL·E'];
 const gptModel = ['gpt-3.5-turbo', 'gpt-4'];
-const template = [
-  {
-    title: 'Plan a trip',
-    prompt: 'I want to plan a trip to New York City.',
-  },
-  {
-    title: 'how to make a cake',
-    prompt: 'How to make a cake with chocolate and strawberries?',
-  },
-  {
-    title: 'Business ideas',
-    prompt: 'Generate 5 business ideas for a new startup company.',
-  },
-  {
-    title: 'What is recursion?',
-    prompt: 'What is recursion? show me an example in python.',
-  },
-];
 
 /**
  * A chat view component that displays a list of messages and a form for sending new messages.
