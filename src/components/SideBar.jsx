@@ -47,7 +47,7 @@ const SideBar = () => {
             !open && 'scale-0 hidden'
           } flex flex-row items-center gap-2 mx-auto w-full`}>
           <img src={bot} alt='logo' className='w-6 h-6' />
-          <h1 className={` ${!open && 'scale-0 hidden'}`}>ChatGPT</h1>
+          <h1 className={` ${!open && 'scale-0 hidden'}`}>AltruZ.Ai</h1>
         </div>
         <div
           className='mx-auto btn btn-square btn-ghost'
@@ -60,7 +60,7 @@ const SideBar = () => {
         <li>
           <a className='border border-slate-500' onClick={clear}>
             <MdDelete size={15} />
-            <p className={`${!open && 'hidden'}`}>Clear chat</p>
+            <p className={`${!open && 'hidden'}`}>Clear Chat</p>
           </a>
         </li>
       </ul>
@@ -71,18 +71,18 @@ const SideBar = () => {
         </li>
         <li>
           <a
-            href='https://www.buymeacoffee.com/eyuel'
+            href='https://MrTech-Ak.github.io'
             rel='noreferrer'
             target='_blank'>
             <MdOutlineCoffee size={15} />
-            <p className={`${!open && 'hidden'}`}>Support this project</p>
+            <p className={`${!open && 'hidden'}`}>My Creator</p>
           </a>
         </li>
         <li>
           <a
             rel='noreferrer'
             target='_blank'
-            href='https://github.com/EyuCoder/chatgpt-clone'>
+            href='https://github.com/Xkshat7678/'>
             <AiOutlineGithub size={15} />
             <p className={`${!open && 'hidden'}`}>Github</p>
           </a>
@@ -90,7 +90,7 @@ const SideBar = () => {
         <li>
           <a onClick={() => setModalOpen(true)}>
             <MdOutlineVpnKey size={15} />
-            <p className={`${!open && 'hidden'}`}>OpenAI Key</p>
+            <p className={`${!open && 'hidden'}`}>API_Key</p>
           </a>
         </li>
       </ul>
